@@ -5,11 +5,12 @@ def main():
     total = 0
     numbers = [0]* 100
     index  = 0
+    sum = 0
     
-    while total <= 100:
-        num =  random.randint(1,100)
+    while sum <= 100:
+        num =  random.randint(1,10)
         numbers[index] = num
-        total += num
+        sum += num
         index += 1
         
     numbers = numbers[:index]
